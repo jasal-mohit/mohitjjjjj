@@ -1,6 +1,6 @@
 .outer
 {
-   width: 1500px;
+   width: 100%;
    height: 100vh;
    background-color: lightblue;
    margin: 0 auto;
@@ -8,25 +8,22 @@
 }
 .header
 {
-   width: 1500px;
-   height: px;
-   background-color: rgb(32, 32, 175);
+   width: 100%;
+   height: 100vh;
+   background-image:url('../images/001.jpg');
+   background-size:100% 100%;
 }
-.header img
-{
-   width: 1500px;
-   height: 500px;
-}
+
 .dit
 {
-    width: 1500px;
-    height: 500px;
+    width: 100%;
+    height: 100vh;
     background-color: brown;
 
 }
 .ldit
 {
-    width: 700px;
+    width: 50%;
     height: 300px;
     background-color: darkgreen;
     text-align: center;
@@ -35,7 +32,7 @@
 }
 .dit2
 {
-   width: 800px;
+   width: 50%;
    height: 300px;
    background-color:yellow;
    float: right;
@@ -43,4 +40,16 @@
 .rdit
 {
 
+}
+.hname
+{float:left;
+background-color: aqua;
+}
+.hpic
+{
+   float:right;
+   background-image:url('../images/001.jpg');
+   height:250px;
+   width:250px;
+   background-size: 100% 100%;
 }
